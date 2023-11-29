@@ -1,4 +1,4 @@
-FROM prom/alertmanager:v0.20.0
+FROM prom/alertmanager
 
 COPY "entrypoint.sh" "/entrypoint.sh"
 
