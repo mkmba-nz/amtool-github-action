@@ -3,8 +3,8 @@ AMTool GitHub Actions allows you to check Alertmanager configuration with Github
 
 # Usage
 ```
-- name: Check Altermanager configuration
-  uses: automatedops/amtool-github-actions@v0.2.3
+- name: Check Alertmmanager configuration
+  uses: automatedops/amtool-github-action@v0.2.3
   with:
     amtool_check_file: 'am.yaml' # Default to alertmanager.yaml
 ```
